@@ -1,0 +1,24 @@
+Observera att den här uppgiften ger 1 poäng när den är avklarad. Du får skriftlig återkoppling på ditt arbete.
+
+
+
+Du ska i den här övningsuppgiften fortsätta att arbeta med PDF-materialet för lånesystemet. Du ska vidareutveckla den kod du har och skriva om den till en eller flera klasser och en sammanhängande webbapplikation där användaren via en index-sida kan komma åt alla delarna genom att klicka sig fram med hjälp av länkar till de olika delarna.
+
+
+
+Exempel på klasser du kan skapa
+
+Databas
+Prova gärna att använda ett designmönster för detta, som singleton
+Föremål
+Här har du möjlighet att jobba med arv
+Presentation
+Vidareutveckla templatsystemet
+Skriv en klass för att generera formulär
+Planera ditt arbete med hjälp av klassdiagram. Du kan använda en tjänst som https://www.draw.io för detta.
+
+
+
+I ditt arbete så fortsätter du att jobba med materialet för validering och datumen vid behov. All input från användaren ska även saniteras mot möjliga attacker, säkerheten är fundamental och det är alltid god praxis att ha den i åtanke.
+
+Var noga med att utförligt kommentera dig kod, samt att hålla en konsekvent kod-stil.
