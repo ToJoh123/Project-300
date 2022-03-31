@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 900px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #fff;
+    line-height: 24px;
+}
+
+h4 {
+    font-size: 22px;
+    font-family: Roboto;
+    color: #1E1E1E;
+    line-height: 32px;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: #161616;
+}
+
+header nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header nav div h3 {
+    font-size: 34px;
+    font-family: Roboto;
+    color: #fff;
+    padding-left: 40px;
+}
+
+header nav div .menu-main {
+    width: fit-content;
+    height: fit-content;
+    list-style: none;
+    margin-left: 26px;
+}
+
+header nav div .menu-main li {
+    display: inline-block;
+}
+
+header nav div .menu-main li a {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+
+header nav .menu-member {
+    width: fit-content;
+    height: fit-content;
+    list-style: none;
+    margin-right: 40px;
+}
+
+header nav .menu-member li {
+    display: inline-block;
+}
+
+header nav .menu-member li a {
+    font-size: 16px;
+    font-family: Roboto;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 16px;
+}
+
+.header-login-a {
+    background-color: #3F97EF;
+    border-radius: 4px;
+}
+
+header a:hover {
+    opacity: 80%;
+}
+
+.header-login-a:hover {
+    background-color: #2073C7;
+    opacity: 100%;
+}
+
+.index-intro {
+    width: 100%;
+    height: 580px;
+    background-image: url("img/bg-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index-intro-bg {
+    width: 100%;
+    height: 100%;
+    background: rgba(38, 48, 62, 0.94);
+}
+
+.index-intro-bg .wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.index-intro-c1, .index-intro-c2 {
+    width: 50%;
+    height: fit-content;
+}
+
+.index-intro-c1 .video {
+    width: 454px;
+    height: 255px;
+    background-image: url("img/video-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+.index-intro-c1 p {
+    padding-left: 20px;
+    border-left: 4px solid #3F97EF;
+}
+
+.index-intro-c2 h2 {
+    font-family: Roboto;
+    color: #fff;
+    font-size: 70px;
+    line-height: 82px;
+    margin-left: 60px;
+    padding-bottom: 34px;
+}
+
+.index-intro-c2 a {
+    font-family: Roboto;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 16px;
+    background-color: #3F97EF;
+    margin-left: 60px;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+.index-intro-c2 a:hover {
+    background-color: #2073C7;
+}
+
+.index-login {
+    width: 100%;
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+.index-login .wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.index-login input {
+    width: 220px;
+    height: 34px;
+    border-radius: 6px;
+    border: 1px solid #CCCCCC;
+    background-color: #EEEEEE;
+    font-family: Roboto;
+    font-size: 16px;
+    padding-left: 12px;
+    margin-bottom: 8px;
+}
+
+.index-login button {
+    width: fit-content;
+    height: 34px;
+    border-radius: 6px;
+    border: none;
+    background-color: #3F97EF;
+    font-family: Roboto;
+    font-size: 16px;
+    color: #fff;
+    line-height: 16px;
+    padding: 10px 16px;
+    cursor: pointer;
+}
+.index-login button:hover {
+    background-color: #2073C7;
+}
+
+.index-login-signup {
+    width: 50%;
+    margin-top: 80px;
+    padding-left: 20px;
+    border-left: 4px solid #3F97EF;
+}
+
+.index-login-signup p {
+    color: #1E1E1E;
+    padding: 6px 0 10px;
+}
+
+.index-login-login {
+    width: 50%;
+    margin-top: 80px;
+    background-color: #161616;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-login-login h4 {
+    color: #fff;
+}
+
+.index-login-login p {
+    padding: 6px 0 10px;
+}
+
+.index-login-login form {
+    width: 232px;
+}
+
+.index-login-login form button {
+    display: block;
+    margin: 0 auto;
+}
