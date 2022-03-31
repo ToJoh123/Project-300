@@ -20,8 +20,8 @@
             <ul class="menu-main">
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="datezone_calc.php">Tidszon räknare</a></li>
-                <li><a href="create_review.php">Create & Read</a></li>
-                <li><a href="uppdate_delete.php">Update & Delete</a></li>
+                <li><a href="crud.php">Crud</a></li>
+                <li><a href="loan_items.php">Loan items</a></li>
             </ul>
         </div>
         <ul class="menu-member">
